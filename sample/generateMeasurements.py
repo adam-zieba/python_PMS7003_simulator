@@ -4,41 +4,43 @@ import random
 # Generate measurements
 
 def generate_json_measurements():
-    pass
+    return {
+        'pm1_0cf1': generate_pm10cf1()
+    }
 
 
 def generate_pm1_0cf1():
-    return "Generated pm1_0cf1 measurement"
+    return random.randrange(1, 100)
 
 def generate_pm2_5cf1():
-    return "Generated pm2_5cf1 measurement"
+    return random.randrange(1, 100)
 
 def generate_pm10cf1():
-    return "Generated pm10cf1 measurement"
+    return random.randrange(1, 100)
 
 def generate_pm1_0():
-    return "Generated pm1_0 measurement"
+    return random.randrange(1, 100)
 
 def generate_pm2_5():
-    return "Generated pm2_5 measurement"
+    return random.randrange(1, 100)
 
 def generate_pm10():
-    return "Generated pm10 measurement"
+    return random.randrange(1, 100)
 
 def generate_n0_3():
-    return "Generated n0_3 measurement"
+    return random.randrange(1000, 2000)
 
 def generate_n0_5():
-    return "Generated n0_5 measurement"
+    return random.randrange(100, 500)
 
 def generate_n1_0():
-    return "Generated n1_0 measurement"
+    return random.randrange(1, 100)
 
 def generate_n2_5():
-    return "Generated n2_5 measurement"
+    return random.randrange(1, 100)
 
 def generate_n5_0():
-    return "Generated n5_0 meaurement"
+    return random.randrange(1, 100)
 
 def generate_n10():
-    return "Generated n10 measurement"
+    return random.randrange(1, 10)
