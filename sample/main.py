@@ -1,4 +1,7 @@
 import generateMeasurements
+import time
 
-json_readings= generateMeasurements.generate_json_measurements()
-print(json_readings)
+while True:
+  time.sleep(1)
+  json_readings= generateMeasurements.generate_json_measurements()
+  print(json_readings)
